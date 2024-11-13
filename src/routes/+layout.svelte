@@ -1,19 +1,19 @@
 <script>
 	import '../app.css';
-    import Header from './Header.svelte';
-    import '@fontsource-variable/outfit'
+	import Header from './Header.svelte';
+	import '@fontsource-variable/outfit';
 
 	let { children } = $props();
 </script>
 
-<main class="w-full max-w-screen-xl px-4 md:px-0">
-    <Header/>
+<main class="w-full max-w-screen-2xl px-4 ">
+	<Header />
 
-    {@render children()}
+	{@render children()}
 </main>
 
 <style>
-    main {
-        font-family: "Outfit Variable", sans-serif;
-    }
+	main {
+		font-family: 'Outfit Variable', sans-serif;
+	}
 </style>
